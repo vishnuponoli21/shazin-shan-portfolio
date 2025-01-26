@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-mainhead {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .lexend-giga-sidehead {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+header {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+.main-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left-block {
+    width: 30%;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+}
+.right-block {
+    width: 70%;
+    position:absolute;
+    right: 0 ;
+    height: 100vh;
+    background-color: #333;
+}
+.header .prof-img {
+    background-image: url(/assets/imgs/shazin-prof.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.header .prof-img::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(-20deg,
+    hsla(20, 92%, 40%, 0.5) 0%, rgba(208, 84, 6, 0.5)20%, transparent 30%,
+    transparent 100%);
+}
+.header .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    margin:0 auto;
+    padding: 10px;
+    /* backdrop-filter: blur(2px) saturate(80%); */
+  }
+  .header .content h2{
+    font-size:36px ;
+    color: white;
+    line-height: 1;
+    margin: 0;
+  }
+  .header .content h5{
+    font-size: 20px;
+    color: white;
+  }
+  .header .content .social-icon {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  .header .content .social-icon li{
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .header .content .social-icon li a{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    border:1px solid #989898;
+  }
+
+  header .content .social-icon li a:hover{
+    border:2px solid #fff;
+  }
