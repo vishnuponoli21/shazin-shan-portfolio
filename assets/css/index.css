@@ -8,12 +8,14 @@
     font-variation-settings:
       "wdth" 100;
   }
+
   .lexend-giga-sidehead {
     font-family: "Lexend Giga", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
   }
+
 header {
     margin: 0;
     padding: 0;
@@ -21,11 +23,13 @@ header {
     vertical-align: middle;
     position: relative;
 }
+
 .main-block{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .left-block {
     width: 30%;
     text-align: center;
@@ -33,14 +37,16 @@ header {
     position: fixed;
     left: 0;
 }
+
 .right-block {
     width: 70%;
     position:absolute;
     right: 0 ;
     height: 100vh;
-    background-color: #333;
+  
 }
-.header .prof-img {
+
+.prof-img {
     background-image: url(/assets/imgs/shazin-prof.jpg);
     position: absolute;
     width: 100%;
@@ -49,7 +55,8 @@ header {
     background-position: center;
     z-index: -1;
 }
-.header .prof-img::before {
+
+.prof-img::before {
     content: "";
     position: absolute;
     left: 0;
@@ -57,51 +64,113 @@ header {
     top: 0;
     bottom: 0;
     background: linear-gradient(-20deg,
-    hsla(20, 92%, 40%, 0.5) 0%, rgba(208, 84, 6, 0.5)20%, transparent 30%,
+    hsla(244, 97%, 38%, 0.548) 0%, rgba(9, 6, 208, 0.5)20%, transparent 30%,
     transparent 100%);
 }
-.header .content {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width:100%;
-    margin:0 auto;
-    padding: 10px;
-    /* backdrop-filter: blur(2px) saturate(80%); */
-  }
-  .header .content h2{
-    font-size:36px ;
-    color: white;
+
+header .content {
+position: absolute;
+left:0;
+bottom:0;
+right:0;
+width:100%;
+margin:0 auto;
+padding: 10px;
+}
+
+header .content h2 {
+    font-size: 36px;
+    color: whitesmoke;
     line-height: 1;
     margin: 0;
-  }
-  .header .content h5{
-    font-size: 20px;
-    color: white;
-  }
-  .header .content .social-icon {
-    margin: 0;
-    padding: 0;
-    display: block;
-  }
-  .header .content .social-icon li{
-    display: inline-block;
-    margin: 0 5px;
-  }
+}
 
-  .header .content .social-icon li a{
+header .content h5 {
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    line-height: 35px;
+}
+
+header .content ul{
+    margin:0;
+    padding:0;
     display: block;
-    font-size: 20px;
-    color: #fff;
-    height: 40px;
-    width: 40px;
+}
+
+header .content ul li {
+    display: inline-block;
+    margin:0 2px;
+}
+
+header .content ul li a{
+    display: block;
+    font-size: 15px;
+    color: whitesmoke;
+    height:35px;
+    width: 35px;
     line-height: 35px;
     text-align: center;
-    border-radius: 100%;
-    border:1px solid #989898;
-  }
+}
 
-  header .content .social-icon li a:hover{
-    border:2px solid #fff;
-  }
+header .content ul li a:hover {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+header .content ul li a:active {
+    border-color: #333;
+}
+
+.section-wrapper {
+   padding: 6%;
+}
+
+.odd-section {
+    background-color: #e5e6ea;
+}
+
+.even-section {
+    background-color:#7988C8ff ;
+    color: whitesmoke;
+}
+
+.adora {
+    height: 150px; 
+}
+
+.microtel {
+    height:150px;
+}
+
+.aster {
+    height: 100px;
+}
+
+.company-row {
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+}
+
+.company-text {
+    padding:20px !important;
+}
+
+.company-text h4 {
+    padding-bottom: 20px;
+}
+
+.logo{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.skill-progress label {
+    margin-top: 30px;
+}
+.progress{
+    background-color: #C3CAC4ff !important;
+}
+.progress-bar {
+   background-color: #3f4b7cd8 !important;
+}
