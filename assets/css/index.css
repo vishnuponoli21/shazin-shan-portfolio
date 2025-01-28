@@ -219,13 +219,14 @@ header .content ul li a:active {
 .progress-bar {
    background-color: #3f4b7cd8 !important;
 }
+
 .project div {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.project div:first-child {
-    margin-top: 20px;
+    margin-top: 10px !important;
     margin-bottom: 20px !important;
+}
+.project div p{
+    margin-top: 20px ;
+    margin-bottom: 20px;
 }
 .c-carosel h5 , .c-carosel p {
     color: white;
