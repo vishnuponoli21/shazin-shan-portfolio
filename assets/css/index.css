@@ -206,11 +206,6 @@ header .content ul li a:active {
 .company-text {
     padding:20px !important;
 }
-
-.company-text h4 {
-    padding-bottom: 20px;
-}
-
 .logo{
     display: flex !important;
     align-items: center !important;
@@ -239,7 +234,10 @@ header .content ul li a:active {
     color: white;
     backdrop-filter: blur(2px);
 }
-
+.c-carosel img {
+    height: 500px;
+    width: 500px;
+}
 .project iframe {
     position: relative;
     right: auto;
