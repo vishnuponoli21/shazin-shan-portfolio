@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Quicksand:wght@300..700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .roboto-mainhead {
     font-family: "Roboto", serif;
@@ -16,6 +16,27 @@
     font-style: normal;
   }
 
+  .quicksand-para {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .red-hat-text {
+    font-family: "Red Hat Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-condensed {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
 
 header {
     margin: 0;
@@ -135,20 +156,28 @@ header .content ul li a:hover {
 }
 
 header .content ul li a:active {
-    border-color: #333;
+    /* border-color: #333; */
+    border: 2px solid whitesmoke;
 }
 
 .section-wrapper {
    padding: 6%;
+   overflow: hidden;
 }
-
+/* #e5e6ea */
 .odd-section {
-    background-color: #e5e6ea;
+    background-color:whitesmoke;
+    color: black !important;
 }
 
 .even-section {
     background-color:#7988C8ff ;
     color: whitesmoke;
+}
+
+.experience hr {
+    padding: 0;
+    margin: 10px;
 }
 
 .adora {
@@ -163,10 +192,10 @@ header .content ul li a:active {
     height: 100px;
 }
 
-.company-row {
-    margin-top: 20px !important;
+/* .company-row {
+    margin-top: 10px !important;
     margin-bottom: 20px;
-}
+} */
 
 .company-text {
     padding:20px !important;
@@ -189,4 +218,39 @@ header .content ul li a:active {
 }
 .progress-bar {
    background-color: #3f4b7cd8 !important;
+}
+.project div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.project div:first-child {
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+.c-carosel h5 , .c-carosel p {
+    color: white;
+    backdrop-filter: blur(2px);
+}
+
+.project iframe {
+    position: relative;
+    right: auto;
+    left: auto;
+   margin-left:auto !important;
+   margin-right:auto !important;
+    height: 335px;
+    width: 750px;
+}
+.contact  .c-col {
+    padding: 10px !important;
+}
+footer {
+    font-size: xx-small;
+    font-style: italic;
+    text-align:end ;
+    background-color: rgb(3, 28, 53);
+    color: whitesmoke;
+}
+footer a:link , footer a:visited {
+color: whitesmoke;
 }
