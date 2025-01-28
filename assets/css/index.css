@@ -80,6 +80,11 @@ header {
     header{
       height:70vh;
     }
+    iframe {
+        width:70%;
+        height: 70%;
+        position: relative;
+    }
 }
 
 
@@ -218,6 +223,7 @@ header .content ul li a:active {
 }
 .progress-bar {
    background-color: #3f4b7cd8 !important;
+   border-radius: 20px;
 }
 
 .project div {
